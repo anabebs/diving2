@@ -1,0 +1,242 @@
+/* Main Styles */
+* {
+  box-sizing: border-box;
+
+
+
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #272731;
+  color: #fff;
+
+}
+
+
+/* Headers */
+h1, h3, h4, h5, h6 {
+  color: #E8ABF7;
+  font-family: 'Londrina Shadow', cursive;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 4em;
+  display: inline;
+  position: absolute  ;
+  font-family: 'Londrina Shadow', cursive;
+
+
+
+}
+
+h2 {
+
+font-size: 5em;
+text-align:center;
+color:#ffffff;
+font-family: 'Londrina Solid', solid;
+padding: 5%;
+
+
+
+}
+
+/* Typography */
+p {
+
+line-height: 1.5;
+font-family: 'Londrina Solid', solid;
+padding: 10px;
+margin: 2px;
+font-size: 25px;
+
+vertical-align: middle;
+}
+
+/* Lists */
+
+.name{
+float: left;
+font-size: 70px;
+color: #E8ABF7;
+}
+ul {
+    position: fixed;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+li {
+
+    font-size: 25px;
+    font-family: 'Londrina Shadow', cursive;
+    color: #E8ABF7;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    float: right;
+    padding: 20px 26px;
+    text-decoration: none;
+    transition-duration: 1.5s;
+}
+
+a:hover:not(.active) {
+    transition-duration:  2s ease;
+}
+
+.active {
+    background-color:#4CAF50;
+}
+
+.inst{
+    font-size: 1.5px;
+
+
+
+}
+
+
+/* Image Code */
+img {
+  max-width: 100%;
+}
+
+/* Links */
+a {
+  color: #2AEBEB;
+}
+
+a:hover, a:focus {
+  color: #27D1CF;
+}
+
+/* General Styles */
+header {
+    overflow: auto;
+    height: 3em;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+#hero {
+
+
+  background-image: url("../images/diving-hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  padding: 10%;
+  overflow: hidden;
+  padding: 10%;
+
+}
+
+
+.hero--overlay{
+  position: absolute;
+  background: rgba(0, 105, 252, 0.3);
+  top:0;
+  left:0;
+  opacity: 1;
+  overflow: hidden;
+  padding: 8.5em 5em;
+  transition: all 2s;
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  text-align: center;
+  vertical-align: middle;
+  }
+
+  .hero--overlay:hover {
+  opacity: 0;
+  }
+
+
+
+  .text--large {
+font-size: 2em;
+}
+.text--small {
+  font-size: 0.8em;
+  float: right;
+
+}
+
+#pos {
+
+  float:left;
+
+
+}
+
+#pos2{
+
+  float: right;
+
+}
+
+/* Target all blocks */
+.block {
+  display:inline-block;
+  width:50%;
+
+
+
+}
+
+.inst{
+display: inline-block;
+float:right;
+
+}
+
+/* Specifically target the text blocks */
+.block--text {
+  display:inline-block;
+  width:50%;
+  overflow: hidden;
+  float:left;
+
+
+}
+
+/* Specifically target the image blocks */
+.block--image {
+  display:inline-block;
+  float: right;
+  width:50%;
+
+}
+
+.sub{
+ font-size: 4em;
+ color: #E8ABF7;
+ margin: 2px;
+ padding: 10px;
+
+
+}
+
+
+footer {
+  padding: 1em;
+  background-color: #ccc;
+  color: #000;
+  text-align: center;
+ clear: both;
+}
